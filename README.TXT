@@ -27,7 +27,7 @@
     https://console.cloud.google.com/apis/credentials
     раскоментируйте в файле data_recipient.py вызов функции #print(get_table()) и выполните код pyhton.
     вас закинет на страницу подтверждения google, это не моя прихоть, так работает система безопасности google
-    после этого у вас появится token.json.
+    после этого у вас появится token.json. пусть лежит рядом с credentials.
 6)  В файле kanalservise\frontend\src\index.js подправьте IP адрес сервера на ваш
 6)  запускаем docker-compose up.
     джём пока сбилдятся контейнера и запустятся.

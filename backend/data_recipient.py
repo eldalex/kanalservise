@@ -77,3 +77,8 @@ def get_new_data():
                "order_cost_in_rubles": round(int(item[2]) * float(current_course),2)}
         bulk_create_data.append(row)
     return bulk_create_data
+
+# Раскоментируйте строку и получите данные
+# в первый раз гугл затребует авторизацию и подтверждение.
+# После этого в каталоге сформируется файл token.json, он нужен для дальнейшей работы.
+#print(get_table())

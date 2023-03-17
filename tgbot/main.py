@@ -6,6 +6,9 @@ from aiogram import Bot, Dispatcher, executor, types
 logging.basicConfig(level=logging.INFO)
 
 load_dotenv(override=True)
+# Бот тупой, он нужен только для пересылки сообщений, и если ему что то написать в ответ,
+# он честно ответит что больше ничего не умеет.
+# Токен подтягивается из .env
 bot = Bot(token=os.environ.get('TOKEN'))
 
 dp = Dispatcher(bot)

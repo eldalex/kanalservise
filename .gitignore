@@ -1,0 +1,7 @@
+/backend/venv/
+.idea
+/backend/.env
+/backend/credentials.json
+/backend/token.json
+/tgbot/venv/
+/.env
